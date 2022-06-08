@@ -1,0 +1,63 @@
+body{
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+#heading {
+  background-color: brown;
+  color: aliceblue;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#heading .fa-brands{
+  font-size: 4rem;
+}
+
+.gitCon{
+  display: flex;
+  justify-content:start;
+  
+}
+.col1, .col2 {
+  width: 50%;
+  margin-top: -50px;
+}
+
+.col2 {
+  background-color: brown;
+  padding: 2rem;
+  height: 400px;
+}
+.col2 p{
+  font-size: 2rem;
+  text-align: left;
+}
+
+.col2 p span{
+color: yellow;
+font-weight: bold;  
+}
+
+.searchField input{
+  border: 2px solid goldenrod;
+  padding: 1rem;
+  border-radius: 40px;
+}
+
+button{
+  border-end-end-radius: 30px;
+  border-start-end-radius: 30px;
+  width: 10%;
+}
+.fa-brands {
+  font-size: 7rem;
+}
